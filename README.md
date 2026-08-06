@@ -1,0 +1,2 @@
+Hey I am Vex and I started learning how I can make my on personal website by following the tutorial on [HackClub StarDance Event]{https://stardance.hackclub.com/home}
+I am hoping to learn a lot from here :D

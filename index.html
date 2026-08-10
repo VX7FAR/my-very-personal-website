@@ -17,14 +17,16 @@
         <div class="firstpanel">
             <p id="firstheading"> VEX7FAR </p>
             <button id="buttonz" onclick="document.getElementById('#aboutme').scrollIntoView()">About me</button>
-            <button id="buttonz">Projects</button>
+            <button id="buttonz" onclick="document.getElementById('#projects').scrollIntoView()">Projects</button>
             <button id="buttonz">Sauce</button>
             <button id="buttonz">Contact</button>
         </div>
+
         <br>
+        
         <div>
             <section id="#aboutme">
-            <p id="aboutmethingy">ABOUT ME</p><br>
+            <p id="sectionheading">ABOUT ME</p><br>
             <div class="aboutmeborder">
                 <p>Hey, I am Farhan Aamir or I go with Vex whatever you might like to call me. I am 17yrs old and I am from India.</p>
                 <p>I often work on projects involving 3D modelling, 3D CAD, embedded systems, software development and game development, I really enjoy making my brain go blue screen while thinking about how the things will work.</p>
@@ -36,6 +38,26 @@
             </div>
             </section>
         </div>
+
+        <br><br><br><br><br>
+
+        <section id="#projects">
+        <p id="sectionheading">PROJECTS</p> <br><br>
+        <div>
+            <div style="display: flex; flex-direction: row;">
+                <div class="leftpanel">
+                    <p id="subsectionheading">CAR PARKING ASSISTANT</p><br>
+                    <p id="regulartext">This is the project that I made during my internship at NIT Jamshedpur. It is a device that can help a person to park their car safely without any damage (sorry i forgot to capture photos ToT).</p>
+                    <p id="regulartext">It is a bluetooth controlled RC car that is 3-wheeled which means 2 wheels are powered and 1 wheel is for support and the car has two modes, parking and driving mode that have different functions.</p>
+                    <p id="regulartext">In driving mode the car runs as usual and there is no speed limit and the parking assistant is stopped at this moment.</p>
+                    <p id="regulartext">In parking mode the car has its parking assistant turned on and in this the speed is limited to a point and the sensors and servo motors and turned on.</p>
+                    <p id="regulartext">In parking mode the sensors rotate 180 degrees in both direction and capture the distance which is then programmed such that when the car is too close to something it will stop moving in that specific direction.</p>
+                </div>
+                <div class="rightpanel">
+                
+                </div>
+            </div>
+        </div></section>
 
     </div>
 </body>

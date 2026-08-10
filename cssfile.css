@@ -11,13 +11,50 @@ html{
 .firstpanel{
     background-image: url("images/1.png");
     background-repeat: no-repeat;
-    background-color: aliceblue;
+    background-color: black;
     height: 756px;
     background-position: center;
 }
 
+.aboutmeborder{
+    border: 0px solid white;
+    border-left-width: 2px;
+    border-right-width: 2px;
+    border-style:solid;
+    margin: 0 auto;
+    width: 60%;
+    height: fit-content;
+    color: #ffffff;
+    padding: 50px;
+    text-align: center;
+    font-size: 40px;
+}
+
+.leftpanel{
+    background-color: transparent;
+    height: fit-content;
+    width: 50%;
+    border:0px solid #ffffff;
+    border-right-width: 2px;
+    padding-inline: 40px;
+    padding-top: 20px;
+}
+
+.rightpanel{
+    background-color: transparent;
+    height: fit-content;
+    width: 50%;
+    padding-inline: 40px;
+    padding-top: 20px;
+}
+
+#regulartext{
+    color: white;
+    font-size: 35px;
+}
+
 #firstheading{
-    font-size: 160px;
+    font-size: 200px;
     padding-top: 10px;
     padding-left: 20px;
     color: #ffffff;
@@ -40,24 +77,16 @@ html{
     width: fit-content;
 }
 
-#aboutmethingy{
-    font-size: 80px;
+#sectionheading{
+    font-size: 140px;
     font-family: 'Share Tech', sans-serif;
     color: white;
     text-align: center;
     text-decoration:underline;
 }
 
-.aboutmeborder{
-    border: 0px solid white;
-    border-left-width: 2px;
-    border-right-width: 2px;
-    border-style:solid;
-    margin: 0 auto;
-    width: 60%;
-    height: fit-content;
-    color: #ffffff;
-    padding: 50px;
-    text-align: center;
-    font-size: 40px;
+#subsectionheading{
+    font-size: 50px;
+    color: white;
+    text-decoration: underline;
 }

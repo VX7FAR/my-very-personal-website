@@ -43,7 +43,7 @@
 
         <section id="#projects">
         <p id="sectionheading">PROJECTS</p> <br><br>
-        <div>
+        <div >
             <div style="display: flex; flex-direction: row;">
                 <div class="leftpanel">
                     <p id="subsectionheading">CAR PARKING ASSISTANT</p><br>
@@ -52,11 +52,45 @@
                     <p id="regulartext">In driving mode the car runs as usual and there is no speed limit and the parking assistant is stopped at this moment.</p>
                     <p id="regulartext">In parking mode the car has its parking assistant turned on and in this the speed is limited to a point and the sensors and servo motors and turned on.</p>
                     <p id="regulartext">In parking mode the sensors rotate 180 degrees in both direction and capture the distance which is then programmed such that when the car is too close to something it will stop moving in that specific direction.</p>
+                    <p id="regulartext"><a style="color: white; font-style:italic" white;" href="https://github.com/VX7FAR/Automatic-Parking-Assistant">Github repo here</a></p>
                 </div>
-                <div class="rightpanel">
-                
+                <div class="rightpanelimg">
+                    <img src="images/carparkingassistant.jpeg">
                 </div>
             </div>
+            
+            <br>
+
+            <div style="display: flex; flex-direction: row;">
+                <div class="leftpanelimg">
+                    <img src="images/bms.png">
+                </div>
+                <div class="rightpanel">
+                    <p id="subsectionheading">Battery Capcaity Gauge</p><br>
+                    <p id="regulartext">When i had just gotten myself into making pcb and circuit boards many people suggested me to make battery management system.</p>
+                    <p id="regulartext">This randomly gave me an idea to why not try making a battery gauge but by using arduino UNO</p>
+                    <p id="regulartext">So I designed this Battery management system that measures the capacity and power currently being used in a battery.</p>
+                    <p id="regulartext">It uses INA219 as its measurement component and it is calibrated for maximum 32V and 2A but it is made for single cell 18650 Li-ion battery.</p>
+                    <p id="regulartext">It also features a 16x2 LCD screen that shows the information about battery and power consumptionl</p>
+                    <p id="regulartext"><a style="color: white; font-style:italic" href="https://github.com/VX7FAR/Battery-Capacity-Gauge">Github repo here</a></p>
+                </div>
+            </div>
+
+            <br>
+
+            <div style="display: flex; flex-direction: row;">
+                <div class="leftpanel">
+                    <p id="subsectionheading">Epsilon Password Manager</p><br>
+                    <p id="regulartext">I wanted to learn a bit about how file management works and C++ as well as encryption, decryption and randomness.</p>
+                    <p id="regulartext">Well turns out these are the things a password generator and manager should have, so I made it.</p>
+                    <p id="regulartext">Well its been a while since i worked on this project I was intending on adding GUI and some other password generation algorithm but I got kinda lazy :P</p>
+                    <p id="regulartext">This is a simple CLI app which used XOR for file encryption and decryption, mt19937 engine is used for password generation where you navigate through by using commands.</p>
+                </div>
+                <div class="rightpanelimg">
+                    <img src="images/epsilon.png">
+                </div>
+            </div>
+
         </div></section>
 
     </div>

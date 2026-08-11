@@ -35,17 +35,52 @@ html{
     height: fit-content;
     width: 50%;
     border:0px solid #ffffff;
-    border-right-width: 2px;
     padding-inline: 40px;
     padding-top: 20px;
 }
+
+.leftpanelimg{
+    background-color: transparent;
+    width: 50%;
+    padding-inline: 40px;
+    padding-top: 20px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.leftpanelimg img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
 
 .rightpanel{
     background-color: transparent;
     height: fit-content;
     width: 50%;
+    border:0px solid #ffffff;
     padding-inline: 40px;
     padding-top: 20px;
+}
+
+.rightpanelimg{
+    background-color: transparent;
+    width: 50%;
+    padding-inline: 40px;
+    padding-top: 20px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rightpanelimg img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
 }
 
 #regulartext{

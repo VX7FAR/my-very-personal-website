@@ -34,7 +34,6 @@ html{
     background-color: transparent;
     height: fit-content;
     width: 50%;
-    border:0px solid #ffffff;
     padding-inline: 40px;
     padding-top: 20px;
 }
@@ -59,9 +58,7 @@ html{
 
 .rightpanel{
     background-color: transparent;
-    height: fit-content;
     width: 50%;
-    border:0px solid #ffffff;
     padding-inline: 40px;
     padding-top: 20px;
 }
@@ -124,4 +121,11 @@ html{
     font-size: 50px;
     color: white;
     text-decoration: underline;
+}
+
+#blender{
+    display: flex;
+    flex-direction: column;
+    margin-inline: 40px; 
+    align-content: center;
 }

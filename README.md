@@ -20,3 +20,5 @@ It is simply a box with the github repo link of this website.
 
 The font I used in this project is [Share Tech](https://fonts.google.com/specimen/Share+Tech?lang=en_Latn&preview.script=Latn&preview.lang=en_Latn)
 
+AI Usage: I used AI and web browser for learning about new contents that I am not aware of for example socials was made using grid and I didnt know about it until I searched it up
+However this website does not includes copy-pasted code from AI. AI was only a way for me to fix issues and learn things that I had no idea how they worked.

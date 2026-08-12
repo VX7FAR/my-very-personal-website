@@ -1,4 +1,0 @@
-I wanted to learn a bit about how file management works and C++ as well as encryption, decryption and randomness.
-Well turns out these are the things a password generator and manager should have, so I made it.
-Well its been a while since i worked on this project I was intending on adding GUI and some other password generation algorithm but I got kinda lazy :P
-This is a simple CLI app which used XOR for file encryption and decryption, mt19937 engine is used for password generation where you navigate through by using commands.

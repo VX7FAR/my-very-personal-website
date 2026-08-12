@@ -129,3 +129,40 @@ html{
     margin-inline: 40px; 
     align-content: center;
 }
+
+.contactgrid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-inline: 40px;
+    padding-top: 20px;
+    gap: 40px;
+}
+
+.contactgrid figure{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contactgrid img{
+    height: 64px;
+    width: 64px;
+    object-fit: contain;
+}
+
+.contactgrid figcaption{
+    color: white;
+    font-size: 10px;
+    text-align: center;
+}
+
+.endpanel{
+    background-color: #ae03ff;
+    font-size: 20px;
+    text-align: center;
+    height: fit-content;
+    padding-inline: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}

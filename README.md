@@ -9,4 +9,14 @@ This what everything you should know about me and the purpose of this website
 # Projects
 This contains some of my projects that I have made ofc I cant add everything so just some examples of my projects
 
-More things are in development and I will add new things in this for sure :D
+# 3D Art
+This contains some of the 3D arts that I have made
+
+# Contact
+This contains all the methods through which someone can contact me and my socials
+
+# End Panel
+It is simply a box with the github repo link of this website.
+
+The font I used in this project is [Share Tech](https://fonts.google.com/specimen/Share+Tech?lang=en_Latn&preview.script=Latn&preview.lang=en_Latn)
+
